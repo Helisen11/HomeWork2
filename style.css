@@ -30,12 +30,34 @@ button {
   text-decoration: none;
 }
 
+.section { 
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/*HEADER*/
 .container {
   width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header { 
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -66,21 +88,19 @@ button {
   text-decoration: none;
 }
 
-.page-header-container {
-  display: flex;
-  align-items: center;
+.logo {
+  margin-right: 77px;
+  
 }
 
-.page-nav {
-  display: flex;
-  align-items: center;
-}
-
-.mеnu {
+.menu {
   display: flex;
   align-items: center;
 } 
 
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
 
 .menu-link {
   font-family: 'Roboto', sans-serif;
@@ -110,35 +130,61 @@ button {
   line-height: 1.5px;
   letter-spacing: 0.02em;
   color: #434455; 
+  margin-left: 40px;
 }
 
-.modal-btn {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
+/*HERO*/
+
+.hero-container {
+  background: #2E2F42;
   text-align: center;
-  letter-spacing: 0.04em;
-  color: #FFFFFF;
-  background: #4D5AE5;
+  padding: 192px 0;
 }
 
 .hero-title {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  max-width: 600px;
+  margin: 0 auto 48px auto;
+  color: #FFFFFF;
   font-weight: 600;
   font-size: 56px;
-  line-height: 60px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  line-height: 60px;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
-  background: #2E2F42;
 }
 
-.features {
+.modal-btn {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px transparent;
+  min-width: 106px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #4D5AE5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.04em;
+}
+
+/*INFA*/
+.container-every {
+  display: flex;
+}
+
+.direction {
+  display: flex;
+}
+
+.infa:not(:last-child) {
+  margin-right: 24px;
+}
+
+.features{
+  margin-bottom: 8px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -147,7 +193,6 @@ button {
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
-
 
 .description {
   font-family: 'Roboto', sans-serif;
@@ -159,7 +204,14 @@ button {
   color: #434455;
 }
 
+
+/*MAIN PROGECTS PICTURES*/
+.main-project {
+  padding-bottom: 120px;
+}
+
 .visually-hidden {
+  margin-bottom: 72px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -171,34 +223,49 @@ button {
   color: #2E2F42;
 }
 
-.line-up {
+.projects-pictures {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/*TEAM*/
+
+.team {
   background: #F4F4FD;
 }
 
-.down-logo {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  display: flex;
+.card-content {
+  background: #FFFFFF;
   align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #F4F4FD;
-  text-decoration: none;
+  justify-content: center;  
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid  #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.lower-title {
+.features {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  margin-bottom: 8px;
+}
+
+.description {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: #E7E9FC;
-}
-
-.about {
-  background: #2E2F42;
+  color: #434455;
 }
