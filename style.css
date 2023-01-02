@@ -37,7 +37,7 @@ button {
 
 /*HEADER*/
 .container {
-  width: 1200px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -90,7 +90,6 @@ button {
 
 .logo {
   margin-right: 77px;
-  
 }
 
 .menu {
@@ -142,12 +141,11 @@ button {
 }
 
 .hero-title {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto 48px auto;
   color: #FFFFFF;
   font-weight: 600;
   font-size: 56px;
-  text-align: center;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   line-height: 60px;
@@ -227,7 +225,6 @@ button {
   list-style: none;
   display: flex;
   justify-content: space-between;
-
 }
 
 /*TEAM*/
@@ -237,6 +234,7 @@ button {
 }
 
 .card-content {
+  text-align: center;
   background: #FFFFFF;
   align-items: center;
   justify-content: center;  
@@ -253,7 +251,6 @@ button {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #2E2F42;
   margin-bottom: 8px;
@@ -265,7 +262,40 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+/*FOOTER*/
+
+.about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #2E2F42;
+}
+
+.down-logo {
+  margin-bottom: 16px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #F4F4FD;
+  text-decoration: none;
+}
+
+.lower-title {
+  width: 264px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #E7E9FC;
 }
