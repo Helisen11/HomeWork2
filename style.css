@@ -37,7 +37,7 @@ button {
 
 /*HEADER*/
 .container {
-  width: 1200px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -177,9 +177,9 @@ button {
   display: flex;
 }
 
-.infa:not(:last-child) {
+.infa {
   margin-right: 24px;
-  height: 64px;
+  width: 264px;  
 }
 
 .features{
@@ -225,7 +225,7 @@ button {
 .projects-pictures {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 
 /*TEAM*/
