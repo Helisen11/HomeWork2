@@ -37,7 +37,7 @@ button {
 
 /*HEADER*/
 .container {
-  width: 1158px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -179,6 +179,7 @@ button {
 
 .infa:not(:last-child) {
   margin-right: 24px;
+  height: 64px;
 }
 
 .features{
@@ -212,7 +213,7 @@ button {
   margin-bottom: 72px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   text-align: center;
